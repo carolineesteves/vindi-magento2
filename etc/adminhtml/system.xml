@@ -5,6 +5,22 @@
         <section id="payment">
             <group id="vindi" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
                 <label>Vindi Recurring (VR)</label>
+                <group id="vindi_notification" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="0" translate="label">
+                    <label>Module Notification</label>
+                    <field id="notification" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="0" translate="label"
+                           type="note">
+                        <label>New Version of the Vindi Module for Magento 2 - Version 2.0 Available</label>
+                        <comment><![CDATA[
+                            Prezado cliente,<br/><br/>
+                            Estamos felizes em anunciar o lançamento da versão 2.0 do módulo de Pagamentos Vindi para Magento 2, que traz melhorias significativas em relação às versões anteriores. As principais mudanças incluem:<br/><br/>
+                            - <strong>Novo Tipo de Produto para Recorrência:</strong> Agora, produtos simples, configuráveis e virtuais são utilizados para o cadastro de recorrência, substituindo o uso de produtos agrupados. Isso simplifica o processo de criação e gerenciamento de produtos recorrentes.<br/><br/>
+                            - <strong>Mudança no Fluxo de Faturamento:</strong> Para cada nova fatura gerada na Vindi, um novo pedido é criado na loja em vez de uma nova fatura. Essa mudança visa otimizar o gerenciamento de pedidos e assinaturas.<br/><br/>
+                            - <strong>Facilidade no Gerenciamento e Criação de Planos:</strong> A versão 2.0 inclui melhorias que tornam o gerenciamento e a criação de planos de recorrência mais fáceis, oferecendo uma experiência mais intuitiva e eficiente.<br/><br/>
+                            Recomendamos que você entre em contato com o suporte da Vindi para verificar a disponibilidade e compatibilidade da nova versão para a sua loja. Nossa equipe está pronta para auxiliar na transição e garantir que você aproveite ao máximo essa atualização.<br/><br/>
+                            Agradecemos por continuar utilizando o módulo de Pagamentos Vindi. Estamos sempre à disposição para ajudar com qualquer dúvida ou necessidade.
+                        ]]></comment>
+                    </field>
+                </group>
                 <group id="configuration" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
                     <label>General</label>
                     <field id="mode" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="20"
